@@ -7,6 +7,13 @@
 !(function($) {
   "use strict";
 
+  var todayDate = new Date();
+  var yearExperience = document.getElementById("yearOfMyExp");
+  const startDate = new Date(2021, 5);
+  const endDate = new Date(todayDate.getFullYear(), todayDate.getMonth() - 1);
+  const diffInMonths = (endDate.getFullYear() - startDate.getFullYear()) * 12 + endDate.getMonth() - startDate.getMonth();
+  yearExperience.textContent = (Math.round(diffInMonths/12)) + "." +(Math.round(diffInMonths % 12))
+
   // Hero typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
