@@ -105,10 +105,11 @@
     <section id="about" class="about section-bg">
       <div class="container">
 
-        <div class="section-title">
-          <h2>About</h2>
-          Greetings! I'm Avinash Kumar Singh, a Software developer with a solid foundation and years in the tech industry. During my <span id="yearOfMyExp"></span> years of full-time professional experience and 1.2 years as an intern, I've become proficient in crafting robust backend solutions using cutting-edge technologies.
-        </div>
+      <div class="section-title">
+        <h2>About</h2>
+        Greetings! I'm Avinash Kumar Singh, a Software Developer with a solid foundation and years in the tech industry. During my 
+        <span id="yearOfMyExp"></span> of full-time professional experience and 1.2 years as an intern, I've become proficient in crafting robust backend solutions using cutting-edge technologies.
+      </div>
         <div class="pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Experience Highlights:</h3>
           <p class="font-italic">
@@ -822,5 +823,16 @@
 <script>
   var y = new Date().getFullYear();
   document.getElementById("year").innerHTML = (y - 1999);
+
+  
+  const startDate = new Date(2021, 5); 
+  const currentDate = new Date();
+  const totalMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12 + (currentDate.getMonth() - startDate.getMonth());
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+  const experienceString = months > 0 
+    ? `${years} years and ${months} months` 
+    : `${years} years`;
+  document.getElementById('yearOfMyExp').textContent = experienceString;
 </script>
 </html>
