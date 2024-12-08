@@ -105,11 +105,11 @@
     <section id="about" class="about section-bg">
       <div class="container">
 
-      <div class="section-title">
-        <h2>About</h2>
-        Greetings! I'm Avinash Kumar Singh, a Software Developer with a solid foundation and years in the tech industry. During my 
-        <span id="yearOfMyExp"></span> of full-time professional experience and 1.2 years as an intern, I've become proficient in crafting robust backend solutions using cutting-edge technologies.
-      </div>
+        <div class="section-title">
+          <h2>About</h2>
+          Greetings! I'm Avinash Kumar Singh, a Software Developer with a solid foundation and years in the tech industry. During my 
+          <span id="yearOfMyExp" style="font-weight: bold;"></span> of full-time professional experience and 1.2 years as an intern, I've become proficient in crafting robust backend solutions using cutting-edge technologies.
+        </div>
         <div class="pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Experience Highlights:</h3>
           <p class="font-italic">
@@ -834,7 +834,6 @@
         ? `${years} years and ${months} months` 
         : `${years} years`;
       document.getElementById('yearOfMyExp').textContent = experienceString;
-    console.log(`Calculated Experience: ${experienceString}`);
     };
 </script>
 </html>
