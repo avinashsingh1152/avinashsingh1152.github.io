@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [App Name]</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .contact-box {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 10px auto;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: April 26, 2026</p>
+
+        <p>This Privacy Policy describes how <strong>[App Name]</strong> ("we," "us," or "our") collects, uses, and shares your information when you use our mobile application and the services provided through it.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>We provide this app as a Free service. To provide a functional experience, we may collect:</p>
+        <ul>
+            <li><strong>Personal Data:</strong> Name, email address, or phone number if you choose to register an account.</li>
+            <li><strong>Usage Data:</strong> Information on how the app is accessed and used (e.g., device type, operating system, and IP address).</li>
+            <li><strong>User-Input Data:</strong> Any information you manually enter into the app to utilize its core features (e.g., tracking entries or financial records).</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the collected data for various purposes:</p>
+        <ul>
+            <li>To maintain and improve the service.</li>
+            <li>To notify you about changes or updates to our app.</li>
+            <li>To provide customer support and troubleshoot technical issues.</li>
+            <li>To monitor usage patterns to enhance user experience.</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>Our app may use third-party services that have their own Privacy Policies. These may include:</p>
+        <ul>
+            <li>Google Play Services</li>
+            <li>Firebase Crashlytics</li>
+            <li>Analytics providers</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>The security of your data is a priority. We implement industry-standard security measures, including encryption and secure server protocols, to protect your information. However, no method of electronic storage or transmission over the internet is 100% secure.</p>
+
+        <h2>5. Data Retention</h2>
+        <p>We will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy or as required by law.</p>
+
+        <h2>6. Your Rights</h2>
+        <p>Depending on your jurisdiction, you may have the right to access, correct, or delete your personal data. You can exercise these rights by contacting us directly.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+
+        <div class="contact-box">
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <p><strong>Email:</strong> [Your Email Address]</p>
+            <p><strong>Website:</strong> [Your Website/Support URL]</p>
+        </div>
+    </div>
+</body>
+</html>
